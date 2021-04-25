@@ -8,7 +8,8 @@ This project uses the Newsela corpus and different word vectorization and machin
 Word vectorization is done through 1) TF-IDF, 2) FastText, and 3) Bert, and ML algorithms used include 1) SVM, 2) Multinomial Logistic Regression, 3) Naive Bayes, and 4) Transformers. Data is fed into these models in the formats of: plain text, ngram, and removed stopwords.
 
 ## Prerequisite
-This project has been tested and installed on Windows. For optimal performance using a device with GPUs will significantly speed up BERT tuning. None of the devices used had GPUs and instead the CPU was used for tuning and that took hours.
+This project has been tested and installed on Windows. For optimal performance using a device with GPUs will significantly speed up BERT tuning. If the device used does not have GPUs the CPU will be used instead for tuning and that could potentially take hours.
+Python version: 3.7-3.9
 
 ## Getting Started
 Create a new virtual environment and install dependencies using requirements.txt
