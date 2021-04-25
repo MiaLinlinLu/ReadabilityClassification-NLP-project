@@ -10,7 +10,7 @@ Word vectorization is done through 1) TF-IDF, 2) FastText, and 3) Bert, and ML a
 The project was tested in Python 3.7.1. to match the Python version used in Google Colab.
 
 ## Getting Started
-Create a new virtual environment 
+Create a new virtual environment and activate it by executing activate.bat
 ```
 python -m venv <NAME OF NEW ENVIRONMENT>
 ```
