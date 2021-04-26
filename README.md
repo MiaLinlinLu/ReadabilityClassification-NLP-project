@@ -1,5 +1,5 @@
 # Project Title: Readability Formulas and Text Coherence
-CS8980 - Dr. Juan M. Banda\
+
 Group members: Joon Suh Choi, Linlin Lu, Nahom Ogbazghi, Vinayak Renu Nair
 
 
