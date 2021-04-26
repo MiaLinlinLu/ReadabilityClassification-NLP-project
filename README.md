@@ -7,7 +7,9 @@ Group members: Joon Suh Choi, Linlin Lu, Nahom Ogbazghi, Vinayak Renu Nair
 This project uses the Newsela corpus and different word vectorization and machine learning (ML) algorithms to produce models predicting text readability.<br/><br/>
 Word vectorization is done through 1) TF-IDF, and ML algorithms used include 1) SVM, 2) Multinomial Logistic Regression, 3) Naive Bayes, and 4) Random Forest. <br/>Data is fed into these models in the formats of: plain text, ngram, and removed stopwords.
 Deep learning models used are: 1) Fasttext 2) Bert
-
+## Before start
+The dataset files and a fine-tuned bert model can be downloaded from: https://drive.google.com/drive/folders/1C54tPVXpzvXy8aNOvbuMzcJL0Ra87j8x?usp=sharing
+Please download and put this files in the same directory of your project before running the project.
 ## Prerequisite
 This project has been tested and installed on Windows. For optimal performance using a device with GPUs will significantly speed up BERT tuning. If the device used does not have GPUs the CPU will be used instead for tuning and that could potentially take hours.<br/>
 <br/>Python version: 3.7-3.9The project was tested in Python 3.7.1. to match the Python version used in Google Colab.
