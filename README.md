@@ -37,16 +37,16 @@ python ML_NLP.py
 All results will be logged in a separate log file, and all plots will be tabulated on separate png files.
 
 ## About the files
-ResultExample: stores result examples after running the projects.
-Newsela_categorized: dataset for training models (and testing models on the same dataset). Five readability clases. File 0 is the most difficult class. File 4 is the easiest class.
-newsela_features_cohesion_selected.csv: cohesive dataset
-WeeBit-TextOnly_categorized_fortesting: dataset for testing models on a different dataset.
-finetuned_BERT_for_newsela.pt : fine-tuned bert model
-ML_NLP.py: main python file
-helper_functions: helper functions
-cohesive_indices.py: dealing with cohesive_indices
-tfidf_plain: word vectorization
-fasttext-0.9.2-cp37-cp37m-win_amd64: fasttext whl for python version 3.7
-fasttext-0.9.2-cp38-cp38m-win_amd64: fasttext whl for python version 3.8
-bert_related.py: bert related python file
-results.log: recording the running results of the main python file.
+ResultExample: stores result examples after running the projects.<br/>
+Newsela_categorized: dataset for training models (and testing models on the same dataset). Five readability clases. File 0 is the most difficult class. File 4 is the easiest class.<br/>
+newsela_features_cohesion_selected.csv: cohesive dataset<br/>
+WeeBit-TextOnly_categorized_fortesting: dataset for testing models on a different dataset.<br/>
+finetuned_BERT_for_newsela.pt : fine-tuned bert model<br/>
+ML_NLP.py: main python file<br/><br/>
+helper_functions: helper functions<br/>
+cohesive_indices.py: dealing with cohesive_indices<br/>
+tfidf_plain: word vectorization<br/>
+fasttext-0.9.2-cp37-cp37m-win_amd64: fasttext whl for python version 3.7<br/>
+fasttext-0.9.2-cp38-cp38m-win_amd64: fasttext whl for python version 3.8<br/>
+bert_related.py: bert related python file<br/>
+results.log: recording the running results of the main python file.<br/>
